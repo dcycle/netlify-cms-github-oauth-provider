@@ -7,6 +7,8 @@ set -e
 # See http://patorjk.com/software/taag/#p=display&f=Ivrit&t=Steward%208
 cat ./scripts/lib/ascii-art.txt
 
+source ./scripts/lib/source-env-file.sh
+
 echo ''
 echo 'About to try to get the latest version of node from the Docker hub.'
 docker pull node
